@@ -6,7 +6,8 @@
   :scm {:name "git"
         :url "https://github.com/RadicalZephyr/torrential.git"}
 
-  :dependencies [[org.clojure/clojure "1.6.0"]]
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [bencode "0.2.5"]]
 
   :test-paths ["spec"]
 
