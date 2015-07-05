@@ -9,11 +9,9 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [bencode "0.2.5"]]
 
-  :test-paths ["spec"]
+  :plugins [[lein-midje "3.0.0"]]
 
-  :plugins [[speclj "3.2.0"]]
-
-  :profiles {:dev {:dependencies [[speclj "3.2.0"]]}
+  :profiles {:dev {:dependencies [[midje "1.7.0-beta1"]]}
              :uberjar {:aot :all}}
 
   :main ^:skip-aot torrential.core
